@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../dtd/locale.dtd">
+
+<!--
+  * locale/tr_TR/reader.xml
+  *
+  * Copyright (c) 2014-2018 Simon Fraser University
+  * Copyright (c) 2000-2018 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Localization strings.
+  -->
+
+<locale name="tr_TR" full_name="Türkçe">
+	<message key="comments.anonymous">Anonim Kullanıcı</message>
+	<message key="comments.anonymousNamed">"{$userName}"</message>
+	<message key="comments.body">Gövde</message>
+	<message key="comments.titleRequired">Yorum başlığı gerekli.</message>
+	<message key="comments.confirmDeleteChildren">Bu yorumu silmek, ayrıca yanıtları da siler. Bunu yapmak istediğine emin misin?</message>
+	<message key="comments.delete">Bu yorumu sil</message>
+	<message key="comments.email">Poster E-postası</message>
+	<message key="comments.emailReply">E-posta Yanıtı</message>
+	<message key="comments.enterComment">Yorum girin</message>
+	<message key="comments.inResponseTo"><![CDATA[Cevap olarak <a href="{$url}">{$title}</a>]]></message>
+	<message key="comments.name">Poster adı</message>
+	<message key="comments.noComments">Okuyucu yorumları yayınlanmadı.</message>
+	<message key="comments.nReplies">({$num} Cevap)</message>
+	<message key="comments.oneReply">(1 Cevap)</message>
+	<message key="comments.postAnonymously">Bu yorumu anonim olarak yayınla</message>
+	<message key="comments.postReply">Cevap Gönder</message>
+	<message key="comments.readerComments">Okuyucu Yorumları</message>
+	<message key="comments.readMore">Daha fazla oku</message>
+	<message key="comments.replies">Cevaplar</message>
+	<message key="comments.title">Başlık</message>
+	<message key="comments.viewAllComments">Tüm yorumları göster</message>
+	<message key="reader.fullText">Tam Metin:</message>
+	<message key="rt.addComment">Yorum ekle</message>
+	<message key="rt.admin.configuration">Yapılandırma</message>
+	<message key="rt.admin.contexts.confirmDelete">Bu İçeriği ve ilişkili tüm Aramaları silmek istediğinizden emin misiniz?</message>
+	<message key="rt.admin.contexts.createContext">Bağlam Yarat</message>
+	<message key="rt.admin.contexts.edit.editContext">İçeriği Düzenle</message>
+	<message key="rt.admin.contexts.metadata">Meta veri</message>
+	<message key="rt.admin.contexts.options.authorTerms">Kullanıcıların bu öğe için yazarların diğer çalışmalarını bulmasını sağlamak için yazar adlarını varsayılan arama terimleri olarak kullanın (ör. "Diğer Çalışmalar" bağlamında)</message>
+	<message key="rt.admin.contexts.options.citedBy">Yazar isimlerini varsayılan arama terimleri olarak kullanın ve içeriği makaleye yapılan atıflarda arama olarak tanımlayın.</message>
+	<message key="rt.admin.contexts.options.defineTerms"><![CDATA[Okuyucu tarafından vurgulanan kelimeyi varsayılan arama terimi olarak kullanın veya bu öğe için hiç seçilmemişse boş bırakılmalıdır (ör. "Terimlerin tanımı" bağlamı için). Bu bağlamı açmak için kelimelerin çift tıklanmasına izin vermek için <a href="{$settingsUrl}"> RST Ayarları </a> 'nda "terimlerin tanımı" seçeneğinin etkinleştirilmesi gerekir.]]></message>
+	<message key="rt.admin.contexts.options.geoTerms">Coğrafi dizin verilerini varsayılan arama terimleri olarak kullanın.</message>
+	<message key="rt.admin.contexts.options">Seçenekler</message>
+	<message key="rt.admin.management">Yönetim</message>
+
+	<message key="rt.admin.sharing">Paylaşım</message>
+	<message key="rt.admin.sharing.enabled">Paylaşım Etkin</message>
+	<message key="rt.admin.sharing.description"><![CDATA[Okuyucularınızın içerik paylaşmasını sağlamak için <a href="http://www.addthis.com"> addthis.com </a> ile bir hesaba kaydolun ve aşağıdaki Paylaşım düğmesinin kodunu kopyalayın / yapıştırın.]]></message>
+
+	<message key="rt.admin.sharing.basic">Temel Ayarlar</message>
+	<message key="rt.admin.sharing.userNameLabel">AddThis.com kullanıcı adı</message>
+	<message key="rt.admin.sharing.buttonStyleLabel">Buton stili</message>
+	<message key="rt.admin.sharing.dropDownMenuLabel">Açılır menüyü kullan</message>
+	<message key="rt.admin.sharing.advanced">Gelişmiş Ayarlar (isteğe bağlı)</message>
+	<message key="rt.admin.sharing.customizationLink"><![CDATA[See the <a href="http://support.addthis.com/customer/portal/articles/381236-custom-buttons">AddThis.com customization documentation</a> for reference.]]></message>
+	<message key="rt.admin.sharing.brandLabel">Marka</message>
+	<message key="rt.admin.sharing.dropDownLabel"><![CDATA[Açılır seçenekler <br /> (virgülle ayrılmış liste)]]></message>
+	<message key="rt.admin.sharing.languageLabel">Dil</message>
+	<message key="rt.admin.sharing.logolabel">Logo</message>
+	<message key="rt.admin.sharing.logoBackgroundLabel">Logo arkaplan</message>
+	<message key="rt.admin.sharing.logoColorLabel">Logo rengi</message>
+
+	<message key="rt.admin.readingToolsEnabled">Okuma araçları</message>
+	<message key="rt.admin.searches.confirmDelete">Bu Aramayı silmek istediğinizden emin misiniz?</message>
+	<message key="rt.admin.searches.createSearch">Arama oluştur</message>
+	<message key="rt.admin.searches.edit.editSearch">Arama düzenle</message>
+	<message key="rt.admin.selectedVersion">İlgili öğeler</message>
+	<message key="rt.admin.settings.abstract">Özet (öğenin özetini sunar).</message>
+	<message key="rt.admin.settings.viewReviewPolicy">İnceleme Politikasını Görüntüle</message>
+	<message key="rt.admin.settings.authorBio">Yazar hakkında (yazar tarafından girilen biyolojik ifadeleri görüntüler).</message>
+	<message key="rt.admin.settings.captureCite">Öğe nasıl alıntı yapılır (madde için bibliyografik detay sağlar).</message>
+	<message key="rt.admin.settings.defineTerms">Şartlara bakın (okuyucuların bir öğedeki herhangi bir kelimeye çift tıklamaya ve kelimeyi bir sözlüğe göndermesine olanak verir).</message>
+	<message key="rt.admin.settings.disableRelatedItems">İlgili Öğeleri Devre Dışı Bırak</message>
+	<message key="rt.admin.settings.emailAuthor">Yazar e-posta (yazarın e-posta ile bir e-posta şablonu yol açar).</message>
+	<message key="rt.admin.settings.emailOthers">Bir meslektaşı bilgilendirin (öğeye bağlantı içeren bir e-posta şablonuna yönlendirir).</message>
+	<message key="rt.admin.settings.findingReferences">Referansları Bul</message>
+	<message key="rt.admin.settings.printerFriendly">Baskı sürümü (bir öğenin yazıcı dostu bir sürümünü sağlar).</message>
+	<message key="rt.admin.settings.supplementaryFiles">Tamamlayıcı dosyalar (gönderim ile birlikte gönderilen dosyaların listesi görüntülenir).</message>
+	<message key="rt.admin.settings.viewMetadata">Meta veriyi indeksleme (öğenin yazar ve sistem tarafından sağlanan indeksleme meta verilerini görüntüler).</message>
+	<message key="rt.admin.status">Durum</message>
+	<message key="rt.admin.configureSharing">AddThis'i yapılandır</message>
+	<message key="rt.admin.validateUrls.complete">Doğrulama tamamlandı.</message>
+	<message key="rt.admin.validateUrls.ok">Tamam</message>
+	<message key="rt.admin.validateUrls.urlIsInvalid">{$url} bulunamadı.</message>
+	<message key="rt.admin.validateUrls">Okuma Araçları için URL'leri Doğrula</message>
+	<message key="rt.admin.validateUrls.validate">Onaylamak</message>
+	<message key="rt.admin.versions.confirmDelete">Bu Sürümü ve ilişkili tüm İçerik ve Aramaları silmek istediğinizden emin misiniz?</message>
+	<message key="rt.admin.versions.confirmRestore">Tüm sürümleri geri alınamaz şekilde varsayılanlarına geri yüklemek istediğinizden emin misiniz? Eğer öyleyse, Ayarlar sayfasında aktif bir Sürüm seçmeniz gerekecektir.</message>
+	<message key="rt.admin.versions.createVersion">Sürüm oluştur</message>
+	<message key="rt.admin.versions.edit.editVersion">Sürüm düzenle</message>
+	<message key="rt.admin.versions.export">Dışarı ver</message>
+	<message key="rt.admin.versions.importVersion">Sürüm İçeri al</message>
+	<message key="rt.admin.versions.metadata">Meta veri</message>
+	<message key="rt.admin.versions.restoreVersions">Sürümleri Varsayılanlara Geri Yükle</message>
+	<message key="rt.authorBio">Yazar hakkında</message>
+	<message key="rt.captureCite.format">Alıntı biçimi</message>
+	<message key="rt.captureCite">Madde alıntı nasıl?</message>
+	<message key="rt.captureCite.online">Çevrimiçi</message>
+	<message key="rt.captureCite.web">Web</message>	
+	<message key="rt.colleague">İş arkadaşına bildir</message>
+	<message key="rt.context.abbrev">Abbrev</message>
+	<message key="rt.context.and">VE</message>
+	<message key="rt.context.citesContextDescription">Makale Google Akademik’de endeksliyse, ona alıntı yapılan eserlerin bir listesini içeren "X tarafından alıntılanan" bağlantı eşlik edebilir. Ayrıca, Google Akademik, başlığı ve yazarı alıntılayan tüm öğeleri listeler. Yalnızca araştırma kitaplığınız üzerinden kullanılabilen çevrimiçi kaynaklara erişmek için Google Akademik’de Akademik Tercihler’e gidebilir ve kurumunuz için Kütüphane Bağlantılarını etkinleştirebilirsiniz.</message>
+	<message key="rt.context">Bağlam</message>
+	<message key="rt.context.defineTermsDescription">Öğe bir HTML dosyasıysa (bir PDF yerine), metindeki herhangi bir kelimeye çift tıklandığında, bunu Word-Define kutusuna gösterecektir. Aksi takdirde, kelimeler kutuya yazılabilir veya yapıştırılabilir. Aranan kaynak hakkında daha fazla bilgi için, HAKKINDA'ya tıklayın. Bu kaynaklar, alaka düzeylerinden ve içeriklerinin tümüne veya bir kısmına açık (ücretsiz) erişimleri nedeniyle seçilmiştir.</message>
+	<message key="rt.context.description">Açıklama</message>
+	<message key="rt.context.order">Sipariş</message>
+	<message key="rt.contexts">Bağlam</message>
+	<message key="rt.context.searchDescription">Arama terimleri yazar (lar) tarafından seçilmiştir. Okuyucu tarafından değiştirilebilir veya silinebilir, iki veya üç kısa, kesin terim veya kelime öbeği en iyi Boolean (VE) aramalarını yaptı. Aranan kaynaklar hakkında daha fazla bilgi için, HAKKINDA'ya tıklayın. Bu kaynaklar, içeriklerinin tamamı veya bir kısmı ile alakaları ve açık (ücretsiz) erişimleri için seçilmiştir.</message>
+	<message key="rt.context.searchTerms">Arama Terimleri</message>
+	<message key="rt.context.termToDefine">Tanımlanacak sözcük</message>
+	<message key="rt.context.title">Başlık</message>
+	<message key="rt.emailAuthor">Yazar e-postayla gönder</message>
+	<message key="rt.email.needLogin"><![CDATA[* <a target="_parent" href="{$loginUrl}">Kayıt</a> gerektirir.]]></message>
+	<message key="rt.email.sent">Mesajınız gönderildi.</message>
+	<message key="rt.findingReferences">Referansları Bul</message>
+	<message key="rt.findingReferences.googleScholar">Google Scholar</message>
+	<message key="rt.findingReferences.windowsLiveAcademic">Windows Live Academic</message>
+	<message key="rt.lookUp">Şartlara bakın</message>
+	<message key="rt.metadata.dublinCore.contributor">İştirakçi</message>
+	<message key="rt.metadata.dublinCore.coverage">Kapsama</message>
+	<message key="rt.metadata.dublinCore.date">Tarih</message>
+	<message key="rt.metadata.dublinCore.description">Açıklama</message>
+	<message key="rt.metadata.dublinCore">Dublin Core</message>
+	<message key="rt.metadata.dublinCore.format">Format</message>
+	<message key="rt.metadata.dublinCore.identifier">Belirlemek</message>
+	<message key="rt.metadata.dublinCore.language">Dil</message>
+	<message key="rt.metadata.dublinCore.publisher">Yayımcı</message>
+	<message key="rt.metadata.dublinCore.relation">İlişki</message>
+	<message key="rt.metadata.dublinCore.rights">Rights</message>
+	<message key="rt.metadata.dublinCore.source">Kaynak</message>
+	<message key="rt.metadata.dublinCore.subject">Konu</message>
+	<message key="rt.metadata.dublinCore.title">Başlık</message>
+	<message key="rt.metadata.dublinCore.type">Tür</message>
+	<message key="rt.metadata.forThisDocument">Bu Doküman için meta veriler</message>
+	<message key="rt.metadata.pkp.abstract">Özet</message>
+	<message key="rt.metadata.pkp.copyright">Telif hakkı ve izinler</message>
+	<message key="rt.metadata.pkp.coverage">Coğrafi konum, kronolojik dönem, araştırma örneği (cinsiyet, yaş vb.)</message>
+	<message key="rt.metadata.pkp.date">(YYYY-AA-GG)</message>
+	<message key="rt.metadata.pkp.discipline">Disiplin(ler)</message>
+	<message key="rt.metadata.pkp.format">Dosya formatı</message>
+	<message key="rt.metadata.pkp.genre"><![CDATA[Durum ve tür]]></message>
+	<message key="rt.metadata.pkpItem">PKP Metadata Items</message>
+	<message key="rt.metadata.pkp.language">Turkish=tr</message>
+	<message key="rt.metadata.pkp.publisher">Organizasyon ajansı, yer</message>
+	<message key="rt.metadata.pkp.source">Başlık; vol., no. (yıl)</message>
+	<message key="rt.metadata.pkp.sponsors">Sponsor(lar)</message>
+	<message key="rt.metadata.pkp.subject">Anahtar kelime(ler)</message>
+	<message key="rt.metadata.pkp.suppFiles">Ek. Dosyalar</message>
+	<message key="rt.metadata.pkp.title">Belge başlığı</message>
+	<message key="rt.metadata.pkp.type">Tür</message>
+	<message key="rt.metadata.pkp.uri">Tekdüzen Kaynak Tanımlayıcı</message>
+	<message key="rt.printVersion">Baskı versiyonu</message>
+	<message key="rt.readingTools">Okuma araçları</message>
+	<message key="rt.relatedItems">İlgili öğeler</message>
+	<message key="rt.reviewPolicy">İnceleme politikası</message>
+	<message key="rt.search.description">Açıklama</message>
+	<message key="rt.searches">Aramalar</message>
+	<message key="rt.search.order">Sipariş</message>
+	<message key="rt.search">Arama</message>
+	<message key="rt.search.searchPost">Verileri kaydet</message>
+	<message key="rt.search.searchUrl">Arama URL</message>
+	<message key="rt.search.suggest">Bir kaynak öner</message>
+	<message key="rt.search.title">Başlık</message>
+	<message key="rt.search.url">URL</message>
+	<message key="rt.suppFiles.download">İndir</message>
+	<message key="rt.suppFiles">Ek dosyalar</message>
+	<message key="rt.suppFiles.viewMetadata">Endeksleme meta verileri</message>
+	<message key="rt.version.description">Açıklama</message>
+	<message key="rt.version.key">Anahtar</message>
+	<message key="rt.version.locale">Yerel</message>
+	<message key="rt.versions">İlgili Ürün Setleri</message>
+	<message key="rt.version.title">Başlık</message>
+	<message key="rt.version">Versiyon</message>
+	<message key="rt.viewMetadata">Endeksleme meta verileri</message>
+</locale>

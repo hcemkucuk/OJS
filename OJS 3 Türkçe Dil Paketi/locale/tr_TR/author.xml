@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../lib/pkp/dtd/locale.dtd">
+
+<!--
+  * locale/tr_TR/author.xml
+  *
+  * Copyright (c) 2013-2018 Simon Fraser University
+  * Copyright (c) 2003-2018 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Localization strings for the tr_TR (Türkçe) locale.
+  *
+  -->
+
+<locale name="tr_TR" full_name="Türkçe">
+	<message key="author.submit">Yeni Gönderi</message>
+	<message key="author.track">Aktif Gönderiler</message>
+	<message key="author.competingInterests"><![CDATA[Çıkar Çatışması (Competing Interests) <a target="_new" class="action" href="{$competingInterestGuidelinesUrl}">CI Rehberi</a>]]></message>
+	<message key="author.submit.submitArticle">Makale gönderisi yap</message>
+	<message key="author.submit.stepsToSubmit">Gönderi için beş basamak</message>
+	<message key="author.submit.startHereTitle">Yeni Gönderi Başlat</message>
+	<message key="author.submit.startHereLink"><![CDATA[Beş adımda makale gönderisinin ilk adımı için <a href="{$submitUrl}" class="action">TIKLAYINIZ</a>.]]></message>
+	<message key="author.submit.step1">1. Adım: Gönderiye Başlama</message>
+	<message key="author.submit.step2">2. Adım: Gönderi Dosyalarını Yükleme</message>
+	<message key="author.submit.step3">3. Adım: Gönderiyle İlgili Üst Veriyi Girme</message>
+	<message key="author.submit.step4">4. Adım: Ek Belge ve Dosyaların Yüklenmesi</message>
+	<message key="author.submit.step4a">4.1. Adım: Ek Dosya Yükleme</message>
+	<message key="author.submit.step5">5. Adım: Gönderi Onayı</message>
+	<message key="author.submit.start">Başla</message>
+	<message key="author.submit.upload">Gönderiyi Yükle</message>
+	<message key="author.submit.metadata">Üst Veri Gir</message>
+	<message key="author.submit.supplementaryFiles">Ek Dosyaları Yükle</message>
+	<message key="author.submit.confirmation">Onay</message>
+	<message key="author.submit.nextSteps">Sonraki Adımlar</message>
+	<message key="submission.submit.cancelSubmission">Bu gönderiyi, yazar sayfasında, Aktif Gönderilerden seçerek daha sonra tamamlayabilirsiniz.</message>
+	<message key="author.submit.notAccepting">Dergi şu anda göneri kabul etemiyor.</message>
+	<message key="author.submit.requestWaiver">Vazgeç</message>
+	<message key="author.submit.qualifyForWaiver">Bu yazı için Makale Gönderi Ücreti vazgeçileceğini lütfen göz önüde buludurun.</message>
+	<message key="author.submit.addReasonsForWaiver">
+	<message key="author.submit.addReasonsForWaiver"></message>
+	<message key="author.submit.mustEnterWaiverReason">Bir feragat için başvuruyorsanız, sağlanan alanda bir sebep girmelisiniz.</message>
+	<message key="author.submissions.queuedReviewSubsequent">İnceleme Yuvarlamasında {$round}</message>
+	<message key="author.submissions.queuedReviewRevisions">İnceleme: Gerekli Revizyonlar</message>
+	<message key="author.submissions.queuedEditingCopyedit">Düzenleme: Kopyalama İstendi</message>
+	<message key="author.submissions.queuedEditingProofread">Düzenleme: Proofread İstendi</message>
+	<message key="author.submissions.uploadCopyeditedVersion">Kopyalanan Sürümü Yükle</message>
+	<message key="author.submissions.proofreadingCorrections">Proofreading Düzeltmeler</message>
+	<message key="author.submissions.confirmDelete">Bu tamamlanmamış gönderimden silmek istediğinizden emin misiniz?</message>
+	<message key="author.submissions.viewStatus">Durumu göster</message>
+	<message key="author.submissions.noSubmissions">Gönderi yok.</message>
+	<message key="author.submit.journalSection">Dergi Bölümü</message>
+	<message key="author.submit.journalSectionDescription">Makaleler derginin bölümlerinden birine gönderilmelidir.</message>
+	<message key="author.submit.verifyChecklist">Gönderme kontrol listesindeki tüm öğelerin devam etmeden önce karşılandığından emin olmalısınız.</message>
+	<message key="author.submit.copyrightNoticeAgree">Yazarlar, bu dergi tarafından yayınlandığında ve bu derginin yayınlanması durumunda geçerli olacak olan bu Telif Hakkı Bildiriminin şartlarını kabul ederler (editöre aşağıdaki yorumlar eklenebilir).</message>
+	<message key="author.submit.copyrightNoticeAgreeRequired">Devam etmeden önce Telif Hakkı Bildirimi şartlarını kabul etmeniz gerekir.</message>
+	<message key="submission.submit.coverNote">Editör için yorumlar</message>
+	<message key="author.submit.comments">Metin girin (isteğe bağlı)</message>
+	<message key="author.submit.form.sectionRequired">Lütfen bu gönderim için uygun bir dergi bölümünü seçin.</message>
+	<message key="author.submit.form.localeRequired">Lütfen bir gönderim dili seçin.</message>
+	<message key="submission.submit.privacyStatement">Derginin Gizlilik Bildirimi</message>
+	<message key="author.submit.reorderInstructions">Yazarların, yayınlanmak üzere listelenecekleri sırayla görünmelerini yeniden sıralayın.</message>
+	<message key="author.submit.reorder">Yazarlaın adını yeniden sırala</message>
+	<message key="author.submit.selectPrincipalContact">Editör yazışmaları için ana iletişim.</message>
+	<message key="author.submit.addAuthor">Yazar ekle</message>
+	<message key="author.submit.deleteAuthor">Yazar Sil</message>
+	<message key="author.submit.submissionIndexingDescription">Gönderimi indekslemek için şartlar sağlayın; noktalı virgülle (term1; term2; term3) terimleri ayırın.</message>
+	<message key="author.submit.coverageInstructions">Coğrafi konum, kronolojik veya tarihsel kapsam ve / veya araştırma örneğinin özelliklerini ifade eder.</message>
+	<message key="author.submit.languageInstructions"><![CDATA[English=en; French=fr; Spanish=es. <a href="http://www.loc.gov/standards/iso639-2/php/code_list.php" target="_blank">Ek kodlar</a>.]]></message>
+	<message key="author.submit.form.authorRequired">En az bir yazar gerekli.</message>
+	<message key="author.submit.form.authorRequiredFields">Her bir yazarın adı, soyadı ve e-posta adresi gereklidir.</message>
+	<message key="author.submit.form.titleRequired">Lütfen makalenizin başlığını giriniz.</message>
+	<message key="author.submit.form.abstractRequired">Lütfen makalenizin özetini girin.</message>
+	<message key="author.submit.form.wordCountAlert">Özet bölümü için belirlenen maksimum kelime sınırını aştınız.</message>
+	<message key="author.submit.submissionFile">Gönderi Dosyası</message>
+	<message key="author.submit.uploadSubmissionFile">Gönderi dosyasını yükle</message>
+	<message key="author.submit.replaceSubmissionFile">Gönderi dosyasını değiştir</message>
+	<message key="author.submit.noSubmissionFile">Gönderi dosyası yüklenmedi.</message>
+	<message key="author.submit.noSubmissionConfirm">Başvuru için bir dosya göndermeden devam etmek istiyor musunuz?</message>
+	<message key="author.submit.supplementaryFilesInstructions"><![CDATA[Gönderinin bu basamağı ana gönderiye ek olarak verilmesi gereken belge ve dosyaların sisteme yüklenmesini sağlar. <br /><br />İlk olarak dergi "Yayın Hakkı Devir Formu" istiyorsa bilgisayarınızdaki yolu gösterdikten sonra "Dosya Gönder" butonu aracılığıyla yükleyiniz. Belgenin detayının girilmesi için açılan formu doldurunuz. <br /><br />Başka ek belgeniz yok ise "Kaydet ve Devam Et" seçeneğiyle bir sonraki basamağa geçiniz.<br /><br />İkinci olarak eğer var ise ana gönderiye ek olarak sunmak istediğiniz belge dosyaları yükleyiniz (Dosyalar "doc", "docx", "xls", "xlsx", "pdf" gibi formatlarda olabilir). Bu adımda yüklenecek dosyalar <br /><br />(a) araştırma enstrümanları, <br /><br />(b) data setleri, <br /><br />(c) araştırmacıların erişemeyecekleri kaynaklar, <br /><br />(d) ana kaynağa destek olarak sunulması istenen şekil ve tablolar veya araştırmayı destekleyecek çalışmalardır.]]></message>
+	<message key="author.submit.supplementaryFiles.saveToUpload">Yüklediğiniz dosyayı kaydetmek için tıklayınız (daha sonra diğer ek dosya yükleyebilirsiniz).</message>
+	<message key="author.submit.forgottenSubmitSuppFile">Seçmiş olduğunuz ek dosyayı yüklemeden devam etmek istediğinize emin misiniz?</message>
+	<message key="author.submit.noSupplementaryFiles">Bu gönderiye ek dosya yüklemesi yapılmamıştır.</message>
+	<message key="author.submit.backToSupplementaryFiles">Ek Dosyalara Geri Dön</message>
+	<message key="author.submit.confirmDeleteSuppFile">Bu ek dosyayı silmek istediğinizden emin misiniz?</message>
+	<message key="author.submit.uploadSuppFile">Ek dosya yükle</message>
+	<message key="author.submit.addSupplementaryFile">Ek Dosya Ekle</message>
+	<message key="author.submit.editSupplementaryFile">Ek Dosya Düzenle</message>
+	<message key="author.submit.supplementaryFileData">Ek Dosya Üst Verisi</message>
+	<message key="author.submit.supplementaryFileDataDescription">Yüklediğiniz bu ek belge için lütfen aşağıdaki formu doldurunuz. (Eğer belgeniz yayın hakkı devir formu ise (a) "Başlık" alanına makalenizin başlığını yazınız, (b) "Tür" alanında "diğer" seçeneğini seçiniz, (c) "Kısa Açıklama" alanına "Yayın Kakkı Devir Formu" ifadesini yazınız, (d) "Yayıncı" kısmına "Dergi yayıncısını" yazınız ve (e) makalenizin dil kodunu "dil" alanında belirtiniz.)</message>
+	<message key="author.submit.supplementaryFileUpload">Ek Dosya</message>
+	<message key="author.submit.suppFile.createrOrOwner">Dosya sahibi</message>
+	<message key="author.submit.suppFile.researchInstrument">Araştırma Enstürmanları</message>
+	<message key="author.submit.suppFile.researchMaterials">Araştırma Materyalleri</message>
+	<message key="author.submit.suppFile.researchResults">Araştırma Sonuçları</message>
+	<message key="author.submit.suppFile.transcripts">Kopya / Suret</message>
+	<message key="author.submit.suppFile.dataAnalysis">Veri Analizi</message>
+	<message key="author.submit.suppFile.dataSet">Veri Seti</message>
+	<message key="author.submit.suppFile.sourceText">Kaynak Metin</message>
+	<message key="author.submit.suppFile.briefDescription">Kısa açıklama</message>
+	<message key="author.submit.suppFile.availableToPeers">Kör hakemlikten taviz vermeden dosyayı hakemlerin görmesine izin ver (Üst veri hariç)</message>
+	<message key="author.submit.suppFile.publisherDescription">Sadece basılı materyalde kullanınız.</message>
+	<message key="author.submit.suppFile.dateDescription">Lütfen verinin toplandığı ya da aracın yapıldığı tarihi belirtiniz.</message>
+	<message key="author.submit.suppFile.sourceDescription">Çalışmanın adı ya da menşei.</message>
+	<message key="author.submit.suppFile.specifyOtherType">Farklıysa belirtiniz</message>
+	<message key="author.submit.suppFile.noFile">Dosya Yüklenmedi</message>
+	<message key="author.submit.suppFile.form.titleRequired">Lütfen bu ek dosyanın başlığını giriniz.</message>
+	<message key="author.submit.suppFile.form.subjectRequired">Lütfen bir konu giriniz.</message>
+	<message key="author.submit.suppFile.form.descriptionRequired">Lütfen bir açıklama giriniz.</message>
+	<message key="author.suppFile.suppFilePublicIdentificationExists">Açık ek dosya tanımlayıcı zaten var.</message>
+	<message key="author.suppFile.publicSuppFileIdentifier">Açık ek dosya tanımlayıcı</message>
+	<message key="author.submit.confirmationDescription">{$journalTitle} adlı dergimize makale gönderisini tamamlamak için "Gönderiyi Bitir" tuşuna basınız. Dergi editör/editörleri sistem tarafından bir e-posta ile yaptığınız başvuru hakkında otomatik olarak bilgilendirilecektir.  Editör sisteme giriş yapınca editoryal süreçte başvurunuzu görecektir. {$journalTitle} adlı yayına  göstermiş olduğunuz ilgiye teşekkür ederiz.</message>
+	<message key="author.submit.noFiles">Başvuruya herhangi bir dosya eklenmemiştir.</message>
+	<message key="author.submit.filesSummary">Dosya Özeti</message>
+	<message key="author.submit.finishSubmission">Gönderiyi Bitir</message>
+	<message key="author.submit.submissionComplete">Gönderi tamamlanmıştır. {$journalTitle} adlı dergimize makale gönderdiğiniz için teşekkür ederiz. Makaleniz ile ilgili işlem sürecini kullanıcı adı ve şifrenizle giriş yaparak takip edebilirsiniz.</message>
+	<message key="author.article.uploadAuthorVersion">Yazar Sürümünü Yükle</message>
+	<message key="author.article.copyeditedFile">Sayfa Düzenlemesi Yapılmış Dosya</message>
+	<message key="author.article.authorRevisedFile">Yazar Dosyası</message>
+	<message key="author.submit.authorSubmitLoginMessage">Bu dergiye gönderi yapabilmek için bir üyelik gerekiyor. Üyeler, gönderiler ve gönderilerle ilgili durum değişikliklerinde editörlerin değişiklikleri takip etmesini ve yazarlarla iletişim kurmasını sağlar.</message>
+</locale>

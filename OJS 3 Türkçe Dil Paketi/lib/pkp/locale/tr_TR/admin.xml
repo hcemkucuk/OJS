@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../dtd/locale.dtd">
+
+<!--
+  * locale/tr_TR/admin.xml
+  *
+  * Copyright (c) 2014-2018 Simon Fraser University
+  * Copyright (c) 2000-2018 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Localization strings for the tr_TR (Türkçe) locale.
+  *
+  -->
+
+<locale name="tr_TR" full_name="Türkçe">
+	<message key="admin.systemInfo.settingName">Ayar adı</message>
+	<message key="admin.systemInfo.settingValue">Ayar değeri</message>
+	<message key="admin.adminFunctions">Yönetsel İşlevler</message>
+	<message key="admin.auth.confirmDelete">Bu yetkilendirme kaynağını kalıcı olarak silmek istediğinizden emin misiniz?</message>
+	<message key="admin.auth.create">Yetkilendirme kaynağı yarat</message>
+	<message key="admin.auth.noneCreated">Herhangi bir yetkilendirme kaynağı tanımlanmamış.</message>
+	<message key="admin.authSources">Yetkilendirme Kaynakları</message>
+	<message key="admin.clearDataCache">Önbellekteki Verileri Temizle</message>
+	<message key="admin.clearTemplateCache">Önbellekteki Şablonları Temizle</message>
+	<message key="admin.configFileUpdatedInstructions"><![CDATA[Yapılandırma dosyanız başarı ile güncellendi. Sitenizin çalışmaması durumunda <tt>config.inc.php</tt> dosyasında gerekli düzenlemeleri yaparak sorurunu giderebilirsiniz.]]></message>
+	<message key="admin.confirmClearTemplateCache">Hazırlanmış şablonları önbellekten silmek istediğinizden emin misiniz?</message>
+	<message key="admin.confirmExpireSessions">Tüm kullanıcı oturumlarını kapatmak istediğinizden emin misiniz? Siz dahil şu anda sitede oturum açmış olan tüm kullanıcılar yeniden giriş yapmak zorunda kalacaktır.</message>
+	<message key="admin.contentsOfConfigFile">Yapılandırma dosyasının içeriği</message>
+	<message key="admin.contexts.confirmDelete">Are you sure you want to permanently delete {$contextName} and all of its contents?</message>
+	<message key="admin.currentVersion">Güncel sürüm</message>
+	<message key="admin.dateInstalled">Kurulum Tarihi</message>
+	<message key="admin.displayConfigFileInstructions"><![CDATA[Güncellenmiş yapılandırmanızın içeriği aşağıda verilmiştir. Yapıladırma değişikliklerini uygulayabilmek için <tt>config.inc.php</tt> dosyasını uygun bir editörle açmanız ve içeriğini aşağıda belirtilen içerikle değiştirmeniz gerekmektedir.]]></message>
+	<message key="admin.displayNewSystemConfig">Yeni Yapılandırmayı Görüntüle</message>
+	<message key="admin.expireSessions">Kullanıcı Oturumlarını Kapat</message>
+	<message key="admin.languages.confirmReload">Bu dili yeniden yüklemek istediğinizden emin misiniz? Yeniden yükleme dile özgü hazırlanmış özelleştirilmiş e-posta şablonlarını silecektir.</message>
+	<message key="admin.languages.download">Download Locale</message>
+	<message key="admin.languages.downloadLocales">Download Locales</message>
+	<message key="admin.languages.download.cannotOpen">Cannot open language descriptor from PKP web site.</message>
+	<message key="admin.languages.download.cannotModifyRegistry">Cannot add the new locale to the locale registry file, typically "registry/locales.xml".</message>
+	<message key="admin.languages.cantDisable">This locale is the primary language of the site. You can't disable it until you choose another primary locale.</message>
+	<message key="admin.languages.installedLocales">Kurulmuş Diller</message>
+	<message key="admin.languages.installLanguages">Dilleri Yönet</message>
+	<message key="admin.languages.availableLocales">Available Locales</message>
+	<message key="admin.languages.installLocale">Kur</message>
+	<message key="admin.languages.installLocales">Kur</message>
+	<message key="admin.languages.installNewLocales">Yeni Dil Ekle</message>
+	<message key="admin.languages.languageSettings">Dil Ayarları</message>
+	<message key="admin.languages.noLocalesAvailable">Kurulum için ek dil kullanılabilir değil.</message>
+	<message key="admin.languages.reload">Dili Yeniden Yükle</message>
+	<message key="admin.languages.uninstall">Dili Kaldır</message>
+	<message key="admin.phpInfo">Genişletilmiş PHP Bilgisi</message>
+	<message key="admin.scheduledTask">Scheduled task</message>
+	<message key="admin.scheduledTask.startTime">Task process started.</message>
+	<message key="admin.scheduledTask.stopTime">Task process stopped.</message>
+	<message key="admin.scheduledTask.noLog">Task produced no log.</message>
+	<message key="admin.scheduledTask.downloadLog">Your {$softwareName} installation automatically executed and finished this task and you can download the log file here: {$url}</message>
+	<message key="admin.scheduledTask.confirmClearLogs">Are you sure you want to delete all scheduled task execution logs?</message>
+	<message key="admin.scheduledTask.clearLogs">Clear Scheduled Task Execution Logs</message>
+	<message key="admin.scheduledTask.reviewReminder">Review reminder</message>
+	<message key="admin.scheduledTask.subscriptionExpiryReminder">Subscription expiry reminder</message>
+	<message key="admin.server.apacheVersion">Apache sürümü</message>
+	<message key="admin.server.dbDriver">Veri tabanı sürücüsü</message>
+	<message key="admin.server.dbVersion">Veri tabanı sunucu sürümü</message>
+	<message key="admin.serverInformationDescription"><![CDATA[Temel işletim sistemi ve sunucu yazılım sürümleri. Bu sunucunun PHP yapılandırmasının ayrıntılarını görüntülemek için <span class="highlight">Genişletilmiş PHP Bilgisi</span>'ne tıklayınız.]]></message>
+	<message key="admin.serverInformation">Sunucu Bilgisi</message>
+	<message key="admin.server.phpVersion">PHP sürümü</message>
+	<message key="admin.server.platform">İşletim Sistemi Platformu</message>
+	<message key="admin.settings">Ayarlar</message>
+	<message key="admin.settings.aboutDescription">Site Tanımı Hakkında</message>
+	<message key="admin.settings.contactEmail">Temel iletişim e-posta adresi</message>
+	<message key="admin.settings.contactName">İletişim için temel kişi adı</message>
+	<message key="admin.settings.form.contactEmailRequired">Temel iletişim e-posta adresi gerekiyor.</message>
+	<message key="admin.settings.form.contactNameRequired">İletişim için temel kişi adı gerekiyor.</message>
+	<message key="admin.settings.form.minPasswordLengthRequired">Şifre için en az dört karakter girmelisiniz.</message>
+	<message key="admin.settings.form.titleRequired">Bir başlık gerekli.</message>
+	<message key="admin.settings.defaultMetricDescription">
+		Your installation is configured to record more than one usage metric. Usage statistics will be displayed in several contexts.
+		There are cases where a single usage statistic must be used, e.g. to display an ordered list of most-used submissions or to rank
+		search results. Please select one of the configured metrics as a default.
+	</message>
+	<message key="admin.settings.homeHeaderImage.altText">Site Logosu</message>
+	<message key="admin.settings.homeHeaderImageInvalid">Geçersiz site logosu biçimi. Kabul edilebilir biçimler: .gif, .jpg veya .png.</message>
+	<message key="admin.settings.introduction">Giriş</message>
+	<message key="admin.settings.minPasswordLength">Şifre için en kısa karakter sayısı</message>
+	<message key="admin.settings.passwordCharacters">karakterler</message>
+	<message key="admin.settings.siteLanguage">Site Dili</message>
+	<message key="admin.settings.siteStyleSheetInvalid">Geçersiz biçim. Kabul edilebilir biçimler .css.</message>
+	<message key="admin.settings.siteStyleSheet">Site biçimi</message>
+	<message key="admin.settings.siteLogo">Site Logo</message>
+	<message key="admin.settings.siteTitle">Site başlığı</message>
+	<message key="admin.settings.siteTheme">Site Theme</message>
+	<message key="admin.siteAdmin">Site Yönetimi</message>
+	<message key="admin.siteManagement">Site Yönetimi</message>
+	<message key="admin.siteSettings">Site Ayarları</message>
+	<message key="admin.siteSetup">Site Setup</message>
+	<message key="admin.systemConfigFileReadError"><![CDATA[<tt>config.inc.php</tt> adlı konfigürasyon dosyası bulunamıyor, okunabilir değil veya geçersiz.]]></message>
+	<message key="admin.systemInformation">Sistem Bilgisi</message>
+	<message key="admin.versionBuild">Yapı</message>
+	<message key="admin.version.checkForUpdates">Güncellemeleri kontro et</message>
+	<message key="admin.version.downloadPackage">İndir</message>
+	<message key="admin.version.downloadPatch">Yama İndir</message>
+	<message key="admin.versionHistory">Sürüm geçmişi</message>
+	<message key="admin.version.latest">Son sürüm</message>
+	<message key="admin.versionMajor">Büyük</message>
+	<message key="admin.versionMinor">Küçük</message>
+	<message key="admin.version.moreInfo">Daha Fazla Bilgi</message>
+	<message key="admin.versionRevision">Düzeltme</message>
+	<message key="admin.version.updateAvailable">Güncellenmiş sürüm mevcut</message>
+	<message key="admin.version.upToDate">Sisteminiz güncel</message>
+	<message key="admin.version">Sürüm</message>
+	<message key="admin.settings">Ayarlar</message>
+	<message key="admin.settings.siteTheme">Site teması</message>
+	<message key="admin.siteSetup">Site Ayarı</message>
+	<message key="admin.fileLoader.wrongBasePathLocation">Base path {$path} must be inside the public files directory.</message>
+	<message key="admin.fileLoader.pathNotAccessible">Folder {$path} is not a directory or is not readable.</message>
+	<message key="admin.fileLoader.moveFileFailed">File {$filename} could not be moved from {$currentFilePath} to {$destinationPath}</message>
+	<message key="admin.fileLoader.fileProcessed">File {$filename} was processed and archived.</message>
+	<message key="admin.fileLoader.emailSubject">File loader</message>
+
+	<message key="admin.copyAccessLogFileTool.usage">Copy the passed apache access log file(s), filtering the entries related with this installation,
+to the current files directory, inside the UsageStatsPlugin stage directory. Must run under user with enough privilegies to read access apache log files.
+
+This tool will only copy files that aren't already inside the usageStats file loader directories (stage, processing, archive, reject).
+
+Usage: {$scriptName} path/to/apache/log/file.log
+Usage (processing all files inside a directory): {$scriptName} path/to/apache/directory
+	</message>
+	<message key="admin.copyAccessLogFileTool.error.creatingFolder">Error: can't create temporary folder {$tmpDir}</message>
+	<message key="admin.copyAccessLogFileTool.error.acessingFile">Error: File {$filePath} don't exist or can't be accessed.</message>
+	<message key="admin.copyAccessLogFileTool.error.copyingFile">Error: can't copy file from {$filePath} to {$tmpFilePath}</message>
+	<message key="admin.copyAccessLogFileTool.error.deletingFile">Error: can't delete file {$tmpFilePath}</message>
+	<message key="admin.copyAccessLogFileTool.warning.fileAlreadyExists">Warning: file {$filePath} already exists inside the usage stats directory.</message>
+	<message key="admin.copyAccessLogFileTool.success">Success: {$filePath} to {$destinationPath}</message>
+	<message key="admin.error.utilExecutionProblem">The "{$utilPath}" program execution returned the following error: {$output}</message>
+	<message key="admin.error.executingUtil">Error: can't execute "{$utilPath}".  Check your {$utilVar} setting in config.inc.php.</message>
+	<message key="admin.languages.noLocalesToDownload">There are no locales available for download.</message>
+</locale>

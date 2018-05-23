@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../dtd/locale.dtd">
+
+<!--
+  * locale/tr_TR/editor.xml
+  *
+  * Copyright (c) 2014-2018 Simon Fraser University
+  * Copyright (c) 2003-2018 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Localization strings.
+  -->
+
+<locale name="tr_TR" full_name="Türkçe">
+	<message key="editor.submissionLibrary">Gönderim Kitaplığı</message>
+	<message key="editor.review.notInitiated">İnceleme süreci henüz başlatılmamıştır.</message>
+	<message key="editor.submission.copyediting.personalMessageToUser">Kullanıcıya mesaj</message>
+	<message key="editor.submission.externalReviewDescription">İnceleme aşamasına göndermek için aşağıdaki dosyaları seçin.</message>
+	<!-- Add file or auditor to editor/audit grids -->
+	<message key="editor.submission.fileAuditor.form.fileRequired">Kullanıcının atayacağı en az bir dosya seçmelisiniz.</message>
+	<message key="editor.submission.fileAuditor.form.messageRequired">Kişisel bir mesaj eklemelisiniz.</message>
+	<message key="editor.submission.fileAuditor.skipEmail">Denetçiye e-posta göndermeyin</message>
+	<message key="editor.submission.fileAuditor.form.userRequired">Atamak için bir kullanıcı seçmelisiniz.</message>
+	<message key="editor.submission.uploadSelectFiles">Dosya Yükle / Seç</message>
+	<message key="editor.submission.selectFiles">Dosyaları Seç</message>
+	<message key="editor.submission.revisions">Düzeltmeler</message>
+	<message key="editor.submission.review.reviewersDescription"><![CDATA[Okuyucuların gönderim dosyalarını incelemesi için davet etmek için <em> + Gözden Geçireni Ekle </em> 'yi kullanın. Not defteri simgesi, bir incelemenin gönderildiğini gösterir; bu, daha sonra istişare edildikten sonra <em> Onaylandı </em> olarak işaretlenir. İncelemeler geciktiğinde, yorumcuları hatırlatmak için kırmızı bir zarf simgesi görüntülenir.]]></message>
+	<message key="editor.submission.addReviewer">Yorumcu ekle</message>
+	<message key="editor.submission.findAndSelectReviewer">Bir Yorumcu Bulun</message>
+	<message key="editor.submission.findAndSelectUser">Bir Kullanıcı Bul</message>
+	<message key="editor.submission.fileList.includeAllStages">Tüm erişilebilir iş akışı aşamalarından dosyaları göster.</message>
+	<message key="editor.submission.review.currentFiles">Güncel İnceleme Dosyaları {$round}</message>
+	<message key="editor.submission.backToSearch">Aramaya Geri Dön</message>
+	<message key="editor.review.createReviewer">Yeni Yorumcu Oluşturun</message>
+	<message key="editor.review.enrollReviewer.short">Mevcut Kullanıcıyı Kaydet</message>
+	<message key="editor.review.unassignReviewer">Yorumcu Atama</message>
+	<message key="editor.submissionReview.reviewType">Yorum Tipi</message>
+	<message key="editor.submissionReview.sendEmail">Yazarlara bir e-posta bildirimi gönderin: {$authorName}</message>
+	<message key="editor.submissionReview.sendEmail.editors">Editör(ler)e bir e-posta bildirimi gönderin: {$editorNames}</message>
+	<message key="editor.submissionReview.skipEmail">Bir e-posta bildirimi göndermeyin</message>
+	<message key="editor.submissionReview.open">Açık</message>
+	<message key="editor.submissionReview.blind">Kör Hakem</message>
+	<message key="editor.submissionReview.doubleBlind">Çift Kör Hakem</message>
+	<message key="editor.submissionReview.restrictFiles">İncelenecek Dosyalar</message>
+	<message key="editor.submissionReview.restrictFiles.hide">Dosya Seçimini Kapat</message>
+	<message key="editor.submissionReview.editReview">Yorumu Düzenle</message>
+	<message key="editor.review.anonymousReviewer">Anonim Hakem</message>
+	<message key="editor.review.personalMessageToReviewer">İncelemeye gönderilecek e-posta</message>
+	<message key="editor.review.importantDates">Önemli Tarihler</message>
+	<message key="editor.review.uploadRevision">Revizyon yükle</message>
+	<message key="editor.review.newReviewRound">Yeni İnceleme Yuvarla</message>
+	<message key="editor.review.NotifyAuthorRevisions">Düzeltmeler, yeni bir hakem değerlendirmesine tabi olmayacaktır.</message>
+	<message key="editor.review.NotifyAuthorResubmit">Düzeltmeler yeni bir hakem değerlendirmesi turuna tabi olacaktır.</message>
+	<message key="editor.review.dateAccepted">Kabul Tarihini İnceleme</message>
+	<message key="editor.review.reviewsAdded">Yorumlar mesaj gövdesine eklendi.</message>
+	<message key="editor.review.noReviews">İçe aktarılacak hakem değerlendirmesi yok</message>
+	<message key="editor.review.reminder">Hatırlatıcıyı İnceleme</message>
+	<message key="editor.review.thankReviewer">Teşekkürler</message>
+	<message key="editor.review.reminderError">İnceleme hatırlatıcısı gönderilirken hata oluştu</message>
+	<message key="editor.review.thankReviewerError">Hata mesajı göndericiye teşekkür ederiz</message>
+	<message key="editor.review.skipEmail">Hakem'e e-posta göndermeyin.</message>
+	<message key="editor.review.sendReminder">Hatırlatıcıyı gönder</message>
+	<message key="editor.review.readReview">İnceleme Oku</message>
+	<message key="editor.review.readNewReview">Yeni İncelemeyi Okuyun</message>
+	<message key="editor.review.responseDue">Yanıt Tarihi: {$date}</message>
+	<message key="editor.review.requestSent">İstek gönderildi</message>
+	<message key="editor.review.requestAccepted">İstek Kabul edildi</message>
+	<message key="editor.review.revertDecision">Iade kararı</message>
+	<message key="editor.review.reviewDue">İnceleme Tarihi: {$date}</message>
+	<message key="editor.review.reviewDueDate">Son Tarihini İnceleme</message>
+	<message key="editor.review.reviewCompleted">Tamamlanan İnceleme</message>
+	<message key="editor.review.reviewConfirmed">İnceleme Onaylandı</message>
+	<message key="editor.review.reviewSubmitted">İnceleme Gönderildi</message>
+	<message key="editor.review.reviewerComments">Hakem yorumları</message>
+	<message key="editor.review.rateReviewer">Hakem değerlendirmesi</message>
+	<message key="editor.review.rateReviewer.description">Sağlanan gözden geçirmenin kalitesini değerlendirin. Bu değerlendirme, hakemle paylaşılmamaktadır.</message>
+	<message key="editor.review.reviewerRating.none">Derecelendirme yok</message>
+	<message key="editor.review.mustSelect">Bir hakem seçmelisiniz</message>
+	<message key="editor.review.errorAddingReviewer">Hakem eklenirken bir hata oluştu. Lütfen tekrar deneyin.</message>
+	<message key="editor.review.errorDeletingReviewer">Hakem silinirken bir hata oluştu. Lütfen tekrar deneyin.</message>
+	<message key="editor.review.userGroupSelect">Kullanıcıyı bu hakem grubuyla kaydet</message>
+	<message key="editor.review.unconsiderReviewText">Bu yorumu değerlendirilmemiş olarak işaretlemek ister misiniz? İnceleme geçmişi korunacaktır.</message>
+	<message key="editor.review.unconsiderReview">Bu Yorumu Gözden Geçirme</message>
+	<message key="editor.review.readConfirmation">Bu inceleme okunduktan sonra, inceleme sürecinin devam edebileceğini belirtmek için "Onayla" ya basın. Gözden geçiren, başka bir yerde incelemesini yapmışsa, aşağıdaki dosyayı yükleyebilir ve devam etmek için "Onayla" ya basabilirsiniz.</message>
+	<message key="editor.submission.selectCopyedingFiles">Dosyaları Kopyala</message>
+	<message key="editor.submission.selectReviewer">Hakem Seç</message>
+	<message key="editor.submission.taskDueDate">Görev Sonu Tarihi</message>
+	<message key="editor.submission.taskSchedule">Görev takvimi</message>
+	<message key="editor.review.enrollReviewer">Mevcut Bir Kullanıcıyı Hakem Olarak Kaydetme</message>
+	<message key="editor.submission.noAuditRequested">Bu dosya için herhangi bir denetim istenmiyor</message>
+	<message key="editor.submission.personalMessageToUser">Email to be sent to user</message>
+	<message key="editor.submission.proof.reminder">Kanıt hatırlatma</message>
+	<message key="editor.submission.editorial.approveCopyeditDescription">Kopyalanan dosyanın Üretim aşamasına gönderilmeden önce onaylanması gerekir. Bu dosyayı onaylamak istiyor musunuz?</message>
+	<message key="editor.submission.editorial.disapproveCopyeditDescription">Bu kopyalanan dosyanın reddedilmesi, üretim aşamasına gönderilmesinin mümkün olmayacaktır. Bu dosyayı reddetmek istiyor musunuz?</message>
+	<message key="editor.submission.addAuditor">Denetçi Ata</message>
+	<message key="editor.submission.copyedit.manageCopyeditFilesDescription">Herhangi bir gönderim aşamasına önceden yüklenmiş olan tüm dosyalar aşağıdaki İçeriği Ekle kutucuğunu işaretleyerek ve Ara'yı tıklatıp Copyedit Dosyaları listesine eklenebilir: tüm mevcut dosyalar listelenir ve eklenecek şekilde seçilebilir. Bir dosyaya zaten yüklenmemiş ek dosyalar, Dosya Yükle bağlantısını tıklayarak listeye eklenebilir.</message>
+	<message key="editor.review">Eleştiri</message>
+	<message key="editor.review.reviewDetails">Eleştiri Detayları</message>
+	<message key="editor.review.noReviewFilesUploaded">Dosya Yüklenmedi</message>
+	<message key="editor.review.noReviewFilesUploaded.details">Herhangi bir inceleme dosyası yüklemediniz.</message>
+	<message key="editor.review.emailReviewer">Eposta Değerlendirmesi</message>
+	<message key="editor.submission.production.productionReadyFiles">Yapım Hazır Dosyaları</message>
+	<message key="editor.submission.newRound">Yeni İnceleme Turu</message>
+	<message key="editor.submissionReview.recordDecision">Editoryal Karar Verme</message>
+	<message key="editor.submissionReview.recordRecommendation">Reklâm Tavsiyesi Rekoru</message>
+	<message key="editor.submissionReview.recordRecommendation.notifyEditors">Editörlere bildir</message>
+	<message key="editor.submissionReview.recordRecommendation.skipEmail">Editörlere bir e-posta göndermeyin.</message>
+	<message key="editor.submissionReview.recordRecommendation.createDiscussion">Bu öneri hakkında bir inceleme tartışması oluşturun.</message>
+	<message key="editor.submissionReview.recordRecommendation.skipDiscussion">Bir inceleme tartışması oluşturmayın.</message>
+	<message key="editor.submission.newRoundDescription">Bu gönderim için yeni bir inceleme turu oluşturmak üzeresiniz. Diğer inceleme turlarında kullanılmayan dosyalar aşağıda listelenmiştir.</message>
+	<message key="editor.submission.createNewRound">Yeni İnceleme Turu Oluştur</message>
+	<message key="editor.article.reviewForms">İnceleme Formları</message>
+	<message key="editor.article.selectReviewForm">İnceleme Formunu Seç</message>
+	<message key="editor.article.confirmChangeReviewForm">Uyarı: İnceleme formunun değiştirilmesi, hakemlerin bu formu kullanarak yaptıkları cevapları etkileyecektir. Devam etmek istediğine emin misin?</message>
+	<message key="editor.submission.noReviewerFilesSelected">Seçilen Dosya Yok</message>
+	<message key="editor.submission.noReviewerFilesSelected.details">Hakem incelemesi için herhangi bir dosya seçmediniz.</message>
+	<message key="submission.queries.subjectRequired">Bir tartışma konusu gereklidir.</message>
+	<message key="submission.queries.messageRequired">Bir tartışma mesajı gereklidir.</message>
+	<message key="submission.queries.attachedFiles">Ekli dosyalar</message>
+	<message key="grid.action.editQuery">Tartışmayı Düzenle</message>
+	<message key="editor.submission.query.manageQueryNoteFilesDescription">Aşağıdaki listeden bu tartışmaya eklenmek için dosyalar eklenebilir.</message>
+	<message key="editor.submission.selectedReviewer">Hakem Seçin</message>
+	<message key="editor.submission.proofreading.approveProof">Prova Onayla</message>
+	<message key="editor.submission.proofreading.revokeProofApproval">Prova Onayını İptal Et</message>
+	<message key="editor.submission.proofreading.confirmCompletion">Düzeltme işleminin tamamlandığını ve dosyanın yayınlanmaya hazır olduğunu göstermek için bu kanıtı onayla.</message>
+	<message key="editor.submission.proofreading.confirmRemoveCompletion">Düzeltme işleminin artık tamamlanmadığını ve dosyanın yayınlanmaya hazır olmadığını göstermek için bu kanıtın onayını iptal edin.</message>
+	<message key="editor.publicIdentificationNumericNotAllowed">'{$publicIdentifier}' sayı olmamalıdır.</message>
+	<message key="editor.publicIdentificationPatternNotAllowed">{$pattern} desenine izin verilmez.</message>
+
+	<!-- Reviewer selection lists -->
+	<message key="reviewer.list.count">{$count} hakemler</message>
+	<message key="reviewer.list.itemsOfTotal">{$count} arasında {$total} hakemler</message>
+	<message key="reviewer.list.filterRating">En az oy alan</message>
+	<message key="reviewer.list.activeReviews">{$count} aktif</message>
+	<message key="reviewer.list.activeReviewsDescription">Şu anda atanmış aktif yorumlard</message>
+	<message key="reviewer.list.completedReviews">İncelemeler tamamlandı</message>
+	<message key="reviewer.list.reviewerRating">Hakem değerlendirmesi: {$rating}</message>
+	<message key="reviewer.list.daysSinceLastAssignment">{$days} gün önce</message>
+	<message key="reviewer.list.daySinceLastAssignment">Dün</message>
+	<message key="reviewer.list.daysSinceLastAssignmentDescription">Son gözden geçirme tarihinden bu yana geçen gün sayısı</message>
+	<message key="reviewer.list.averageCompletion">İncelemeyi tamamlamak için ortalama gün sayısı</message>
+	<message key="reviewer.list.neverAssigned">Hiç atanmadı</message>
+	<message key="reviewer.list.currentlyAssigned">Bu hakem, bu gönderimi incelemek için zaten atandı.</message>
+	<message key="reviewer.list.warnOnAssign">Bu hakem, yazarın kimliğini görmelerine izin veren bir rol verilmemiş olduğundan kilitlenmiştir. Kör hakem garanti edilemez. Yine de bu gözden hakemin açmak ister misiniz?</message>
+	<message key="reviewer.list.warnOnAssignUnlock">Kilidini aç</message>
+	<message key="reviewer.list.reviewInterests">İlgi alanlarını gözden geçirme</message>
+	<message key="reviewer.list.biography">Biyografi</message>
+</locale>

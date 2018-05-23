@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../dtd/locale.dtd">
+
+<!--
+  * locale/tr_TR/default.xml
+  *
+  * Copyright (c) 2014-2018 Simon Fraser University
+  * Copyright (c) 2003-2018 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Localization strings for default settings for setup items.
+  -->
+
+<locale name="tr_TR" full_name="Türkçe">
+	<!-- Group defaults -->
+	<message key="default.groups.name.siteAdmin">Site Yöneticisi</message>
+	<message key="default.groups.plural.siteAdmin">Site Yöneticileri</message>
+	<message key="default.groups.name.productionEditor">Editör</message>
+	<message key="default.groups.plural.productionEditor">Editörler</message>
+	<message key="default.groups.abbrev.productionEditor">Edi</message>
+	<message key="default.groups.name.copyeditor">Kopyalama Editörü</message>
+	<message key="default.groups.plural.copyeditor">Kopyalama Editörleri</message>
+	<message key="default.groups.abbrev.copyeditor">KE</message>
+	<message key="default.groups.name.proofreader">Düzeltmen</message>
+	<message key="default.groups.plural.proofreader">Düzeltmenler</message>
+	<message key="default.groups.abbrev.proofreader">DZLT</message>
+	<message key="default.groups.name.designer">Tasarımcı</message>
+	<message key="default.groups.plural.designer">Tasarımcılar</message>
+	<message key="default.groups.abbrev.designer">Tasarım</message>
+	<message key="default.groups.name.internalReviewer">Dahili Hakem</message>
+	<message key="default.groups.plural.internalReviewer">Dahili Hakemler</message>
+	<message key="default.groups.abbrev.internalReviewer">DH</message>
+	<message key="default.groups.name.marketing">Pazarlama ve satış koordinatörü</message>
+	<message key="default.groups.plural.marketing">Pazarlama ve satış koordinatörleri</message>
+	<message key="default.groups.abbrev.marketing">PS</message>
+	<message key="default.groups.name.funding">Finansman Koordinatörü</message>
+	<message key="default.groups.plural.funding">Finansman Koordinatörleri</message>
+	<message key="default.groups.abbrev.funding">FK</message>
+	<message key="default.groups.name.indexer">Dizinci</message>
+	<message key="default.groups.plural.indexer">Dizinciler</message>
+	<message key="default.groups.abbrev.indexer">DZN</message>
+	<message key="default.groups.name.layoutEditor">Biçim Düzenleyici</message>
+	<message key="default.groups.plural.layoutEditor">Biçim Düzenleyiciler</message>
+	<message key="default.groups.abbrev.layoutEditor">BD</message>
+	<message key="default.groups.name.author">Yazar</message>
+	<message key="default.groups.plural.author">Yazarlar</message>
+	<message key="default.groups.abbrev.author">YZR</message>
+	<message key="default.groups.name.translator">Çevirmen</message>
+	<message key="default.groups.plural.translator">Çevirmenler</message>
+	<message key="default.groups.abbrev.translator">Çvrmn</message>
+	<message key="default.groups.name.reader">Okuyucu</message>
+	<message key="default.groups.plural.reader">Okuyucular</message>
+	<message key="default.groups.abbrev.reader">Okuyucu</message>
+
+	<!--  common app genre defaults -->
+	<message key="default.genres.other">Diğer</message>
+	<message key="default.genres.multimedia">Multimedya</message>
+	<message key="default.genres.image">Görsel</message>
+	<message key="default.genres.styleSheet">HTML Stylesheet</message>
+</locale>
