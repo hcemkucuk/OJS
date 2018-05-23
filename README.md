@@ -1,3 +1,5 @@
+<img src="https://raw.githubusercontent.com/hcemkucuk/OJS/master/ojs.png"/>
+
 # OJS
 Open Journal System
 Version 3.x Turkish Language Pack
